@@ -18,7 +18,7 @@ export default function FilePageLayout() {
         <section className="flex flex-col justify-between justify-items-center items-center h-screen w-screen">
           <MenuBar/>
           <Routes>
-            <Route path="/" element={<FileCreate />} />
+            <Route path="/file" element={<FileCreate />} />
           </Routes>
         </section>
       </main>

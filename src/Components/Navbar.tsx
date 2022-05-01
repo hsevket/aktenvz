@@ -4,7 +4,7 @@ export default function Navbar() {
   return (
     <nav className="  h-[calc(screen-2rem)] flex flex-col justify-items-stretch">
       <NavLink
-        to="/"
+        to="/file"
         style={({ isActive }) =>
           isActive
             ? {
@@ -32,7 +32,7 @@ export default function Navbar() {
         Ausgeliehene Akten{" "}
       </NavLink>
       <NavLink
-        to="/path3"
+        to="/log"
         style={({ isActive }) =>
           isActive
             ? {
@@ -46,7 +46,7 @@ export default function Navbar() {
         Aktenmeldungen{" "}
       </NavLink>
       <NavLink
-        to="/path4"
+        to="/trash"
         style={({ isActive }) =>
           isActive
             ? {
