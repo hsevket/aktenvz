@@ -1,0 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+    .LinkButton{
+    @apply rounded-lg text-center border-2 shadow-md border-gray-200 h-16 my-4 hover:bg-teal-700 transition-colors p-4
+    }
