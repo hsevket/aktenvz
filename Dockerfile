@@ -8,7 +8,7 @@ RUN npm install
 
 RUN npm run build
 
-FROM nginx:1.16.0-alpine
+FROM nginx:1.23.3-alpine
 
 COPY --from=builder /app/dist /usr/share/nginx/html
 
